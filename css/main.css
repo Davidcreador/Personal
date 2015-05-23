@@ -2496,7 +2496,7 @@ nav li {
 
 /* line 1, ../sass/_nav.sass */
 .nav-bar {
-  background: red;
+  background: white;
   padding: 20px;
   font-size: 0.8em;
   letter-spacing: 0.09em;
@@ -2513,17 +2513,44 @@ nav li {
 /* line 13, ../sass/_nav.sass */
 .nav-bar a {
   text-decoration: none;
-  color: white;
+  color: #314E55;
   padding: 0 10px;
 }
 /* line 18, ../sass/_nav.sass */
 .nav-bar a:hover {
   color: #ccc;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 /* line 1, ../sass/_header.sass */
 .header {
   text-align: center;
   background: white;
+  height: 700px;
+  padding: 300px 0;
+}
+
+/* line 1, ../sass/_about.sass */
+.about {
+  background: #F5F5F5;
+  padding: 60px;
+}
+/* line 5, ../sass/_about.sass */
+.about-card {
+  background: white;
+  width: 224px;
+  height: 360px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 1, ../sass/_contact.sass */
+.contact {
+  background: #f5f5f5;
+  padding: 70px 0;
+}
+/* line 5, ../sass/_contact.sass */
+.contact input {
+  display: block;
+  width: 400px;
 }
